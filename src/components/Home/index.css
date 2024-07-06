@@ -1,0 +1,38 @@
+.movies-list-container {
+  padding: 6px;
+  height: 80vh;
+  overflow-y: auto;
+}
+@media screen and (min-width: 768px) {
+  .movies-list-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 70vh;
+  }
+}
+.btn-container {
+  height: 5vh;
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-btn {
+  background-color: rgb(93, 216, 237);
+  color: white;
+  font-family: Roboto;
+  border: none;
+  cursor: pointer;
+  padding: 6px 12px 6px 12px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.page-no {
+  margin-right: 16px;
+  margin-left: 16px;
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 20px;
+}
